@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #inp1{
+            height: 40px;
+            width: 250px;
+            border: 1px solid white;
+            outline: none;
+        }
+        #inp3{
+            height: 40px;
+            width: 250px;
+            border: 1px solid white;
+            outline: none;  
+        }
+        #inp2{
+            height: 40px;
+            width: 250px;
+            border: 1px solid white;
+            outline: none;
+        }
+        #inp5{
+            height: 40px;
+            width: 250px;
+            border: 1px solid white;
+            outline: none;
+        }
+        #inp4{
+            height: 40px;
+            width: 250px;
+            border: 1px solid white;
+            outline: none;
+        }
+        #btn1{
+            height: 50px;
+            width: 340px;
+            background-color:green;
+            color: white;
+            padding: 0;
+            border: 0;
+        }
+        #btn3{
+            height: 50px;
+            width: 340px;
+            background-color:green;
+            color: white;
+            padding: 0;
+            border: 0;
+        }
+        #p1{
+            height: 25px;
+            font-size: 10px;
+            color: gray;
+            margin: 0 ;
+        }
+        #p3{
+            height: 25px;
+            font-size: 10px;
+            color: gray;
+            margin: 0 ;
+        }
+        #p2{
+            height: 25px;
+            font-size: 10px;
+            color: gray;
+            margin: 0 ;
+        }
+        #p4{
+            height: 25px;
+            font-size: 10px;
+            color: gray;
+            margin: 0 ;
+        }
+        #div5{
+            float: left;
+            margin-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 0px;
+            height: 260px;
+        }
+        #div10{
+            float: left;
+            margin-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 0px;
+            height: 260px;
+        }
+        #div4{
+            float: left;
+            height: 170px;
+            width: 263px;
+        }
+        #div6{
+            border:1px solid gainsboro;
+            height: 46px;
+            margin-top: auto;
+        }
+        #div12{
+            border:1px solid gainsboro;
+            height: 46px;
+            margin-top: auto;
+        }
+        #div7{
+            border:1px solid gainsboro;
+            height: 46px;
+        }
+        #div14{
+            border:1px solid gainsboro;
+            height: 46px;
+            margin-bottom: 20px;
+        }
+        #div13{
+            border:1px solid gainsboro;
+            height: 46px;
+        }
+        #div8{
+            margin-top: 200px;
+            margin-left: 777px;
+            height: 380px;
+            width: 360px;
+            border:1px solid gainsboro ;
+        }
+        #div9{
+            margin-top: 200px;
+            margin-left: 777px;
+            height: 350px;
+            width: 360px;
+            border:1px solid gainsboro ;
+        }
+        .title{
+        color: blue;
+        width: 400px;
+        font-size: 30px;
+        }
+        #con{
+        width: 1503px;
+        margin: 0 auto;
+        overflow: hidden;
+        height: 50px;
+        background-color:lightskyblue;
+        }
+        .title{
+        margin-left: 20px;
+        }
+        #div1{
+            height: 50px;
+            font-size: 30px;
+            color: grey;
+            padding-left:100px ;
+        }
+        #div11{
+            height: 50px;
+            font-size: 30px;
+            color: grey;
+            padding-left:100px ;
+        }
+        #div2{
+            margin-top: 10px;
+            color: black;
+            margin-left: 80px;
+        }
+        #btn2{
+            border: 0px;
+            background-color: white;
+            color: blue;
+        }
+        #btn4{
+            border: 0px;
+            background-color: white;
+            color: blue;
+        }
+        #div20{
+            height: 75px;
+            width: 300px;
+            border: 0px solid black;
+            margin-top: 200px ;
+            margin-left: 625px;
+            font-size: 60px;
+            align-items: center;
+        }
+        #btn5{
+            height: 75px;
+            width: 300px;
+            border: 2px solid black;
+            margin-left: 601px;
+            margin-right: 601px;
+            margin-top: 200px;
+            margin-bottom: 0;
+            font-size: 40px;
+            float: left;
+        }
+        #btn6{
+            height: 75px;
+            width: 300px;
+            border: 2px solid black;
+            margin: 100px auto;
+            font-size: 40px;
+        }
+        #btn{
+            height: 75px;
+            width: 300px;
+            border: 2px solid black;
+            margin: 200px auto;
+            font-size: 40px;
+        }
+        #img{
+            width: 500px;
+            height: 470px;
+        }
+        #div{
+            float: left;
+            margin-top: 115px;
+            margin-left: 200px;
+        }
+        #footer {
+            margin-top: 100px;
+            height: 100px;
+            padding-top: 18px;
+            background: rgb(156, 151, 151);
+            text-align: center;
+        }
+        #footer p {
+            font-size: 14px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 1);
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body >
+    <div id="con">
+        <div class="title">欢迎进入点名系统</div>
+    </div>
+    <div id="div">
+        <img id="img" src="images/x.png" alt="">
+    </div>
+    <div id="div8">
+        <div id="div5" > 
+            <div id="div1">请注册账户</div>    
+            <div id="div6">
+                <label for="">&nbsp教&nbsp师&nbsp名&nbsp&nbsp</label>
+                <input type="text" id="inp1" name="username">
+            </div>     
+            <p id="p3"> </p>  
+            <div id="div7">
+                <label for="">&nbsp设置密码</label>
+                <input type="password" id="inp2" name="password" >
+            </div>       
+            <p id="p2"> </p> 
+            <div id="div14">
+                <label for="">&nbsp确认密码</label>
+                <input type="password" id="inp5" name="password" >
+            </div> 
+            <button id="btn1">立即注册,并开始点名</button>
+            <div id="div2">
+                已有用户？
+                <button id="btn2">请点此登录</button>
+            </div>
+        </div>
+    </div>
+    <div id="div9">
+        <div id="div10" > 
+            <div id="div11">请登录账户</div>    
+            <div id="div12">
+                <label for="">&nbsp教&nbsp师&nbsp名&nbsp&nbsp</label>
+                <input type="text" id="inp3" name="username">
+            </div>     
+            <p id="p3"> </p>  
+            <div id="div13">
+                <label for="">&nbsp输入密码</label>
+                <input type="password" id="inp4" name="password" >
+            </div>       
+            <p id="p4"> </p>               
+            <button id="btn3">立即登录，并开始点名</button>
+            <div id="div2">
+                没有用户？
+                <button id="btn4">请点此注册</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>COPYRIGHT © 1998 - 2020 TENCENT. ALL RIGHTS RESERVED.深圳市市场监督管理局
+            企业主体身份公示工商网监电子标识 |粤网文[2017]6138-1456号|（总）网出证（粤）
+            字第057号文网游备字[2016]M-CSG 0059 号文网游备字[2016]M-CSG 0059 号|新广
+            出审[2017] 6712号|ISBN 978-7-7979-8408-9
+        </p>
+    </div>
+    <div id="div20"></div>
+    <button id="btn5">点击停止</button>
+    <button id="btn6">点击继续</button>
+    <button id="btn">点击开始</button>
+</body>
+<script>
+    var div9 = document.getElementById("div9");
+    var footer = document.getElementById("footer");
+    var div8 = document.getElementById("div8");
+    var div20 = document.getElementById("div20");
+    var btn = document.getElementById("btn");
+    var btn5 = document.getElementById("btn5");
+    var btn6 = document.getElementById("btn6");
+    var p1 = document.getElementById("p1");
+    var p2 = document.getElementById("p2");
+    var p3 = document.getElementById("p3");
+    var p4 = document.getElementById("p4");
+    var con = document.getElementById("con");
+    var inp1 = document.getElementById("inp1");
+    var inp2 = document.getElementById("inp2");
+    var btn1 = document.getElementById("btn1");
+    div9.style.display = "none";
+    div20.style.display = "none";
+    btn5.style.display = "none";
+    btn.style.display = "none";
+    btn6.style.display = "none";
+    //注册界面
+    inp1.onblur = function(){
+        if(inp1.value ==""){
+            alert("用户名不能为空");
+        }
+    }
+    
+    inp2.onfocus = function(){
+        p2.innerHTML = "请使用两种及以上的字符组合";
+        
+    }
+    inp2.onblur = function(){
+        if(inp2.value!=""){
+            p2.innerHTML=" ";
+        }else{
+            alert("密码不能为空");
+        }
+    }
+    inp5.onblur = function(){
+        if(inp2.value!==inp5.value){
+            alert("两次密码输入不一致！ 请重新输入");
+            inp5.value = "";
+        }
+    }
+    //登录界面
+    var inp3 = document.getElementById("inp3");
+    var inp4 = document.getElementById("inp4");
+    var btn3 = document.getElementById("btn3");
+    inp3.onfocus = function(){
+        p3.innerHTML = "请输入您的姓名";
+    }
+    inp3.onblur = function(){
+        if(inp3.value!=""){
+            p3.innerHTML="";
+        }else{
+            alert("用户名不能为空");
+        }
+    }
+    
+    inp4.onfocus = function(){
+        p4.innerHTML = "建议使用两种及以上字符组合";
+        
+    }
+    inp4.onblur = function(){
+        if(inp4.value!=""){
+            p4.innerHTML="";
+        }else{
+            alert("密码不能为空");
+        }
+    }
+    //登录 注册的切换
+    btn2.onclick = function(){
+        div8.style.display = "none";
+        div9.style.display = "block";
+    }
+    btn4.onclick = function(){
+        div9.style.display = "none";
+        div8.style.display = "block";
+    }
+    //滚动幅
+    var title = document.getElementsByClassName("title");
+    title[0].style.marginLeft = "20px";
+    var intervalId = setInterval(function(){
+        var marginLeft = parseInt(title[0].style.marginLeft);
+        if(marginLeft >= 1503){
+            title[0].style.marginLeft = "0";
+            marginLeft = "0";
+        }
+        title[0].style.marginLeft = (marginLeft + 1) + "px";
+    },10)
+    //注册成功
+    btn1.onclick = function(){
+        if( inp1.value!="" && inp2.value!="" && inp5.value!=""){
+            alert("注册成功！点击确定后3秒后跳转至点名界面");
+            var timeerId = setTimeout(function(){
+            div8.style.display = "none";
+            div.style.display = "none"
+            div9.style.display = "none";
+            //con.style.display = "none";
+            btn.style.display = "block";
+            footer.style.display = "none";
+            },3000)
+            btn.onclick = function(){
+                btn.style.display = "none";
+                div20.style.display = "block";
+                btn5.style.display = "block";
+                btn6.style.display = "block";
+                var timerId = setInterval(function creat(){
+                    var i = parseInt(100*Math.random());
+                    div20.innerHTML = "20190" + i;
+                    btn5.onclick = function(){
+                        clearInterval(timerId);
+                    }
+                     btn6.onclick = function(){
+                        var timerId = setInterval(function creat(){
+                            var i = parseInt(100*Math.random());
+                           div20.innerHTML = "20190" + i;
+                            btn5.onclick = function(){
+                                clearInterval(timerId);
+                            }
+                        },50)  
+                    }
+                },50)
+            }   
+        }else{
+            alert("请先注册！");
+        }
+    }
+    //登录成功
+    btn3.onclick = function(){
+        if(inp3.value!="" && inp4.value!=""){
+            alert("登录成功！点击确定后3秒后跳转至点名界面");
+            var timeerId = setTimeout(function(){
+            div8.style.display = "none";
+            div.style.display = "none"
+            div9.style.display = "none";
+            //con.style.display = "none";
+            footer.style.display = "none";
+            btn.style.display = "block";
+            },3000)
+            btn.onclick = function(){
+                btn.style.display = "none";
+                div20.style.display = "block";
+                btn5.style.display = "block";
+                btn6.style.display = "block";
+                var timerId = setInterval(function creat(){
+                    var i = parseInt(100*Math.random());
+                    div20.innerHTML = "20190" + i;
+                    btn5.onclick = function(){
+                        clearInterval(timerId);
+                    }
+                    btn6.onclick = function(){
+                        var timerId = setInterval(function creat(){
+                            var i = parseInt(100*Math.random());
+                            div20.innerHTML = "20190"+i;
+                            btn5.onclick = function(){
+                                clearInterval(timerId);
+                            }
+                        },50)  
+                    }
+                },50)
+            }
+        }else{
+            alert("请先登录！");
+        }
+    }
+</script>
+</html>
